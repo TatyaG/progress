@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+        <div class="container">
+            <div class="progress-box">
+                <div id="progress" class="progress">
+                    <div id="progress__process" class="progress__process"></div>
+                </div>
+            </div>
+          
+
+            <form class="settings">
+                <label class="settings__label">                    
+                    <input id="value" class="settings__value" type="text">
+                    <span>Value</span>
+                </label>
+                
+                <label class="settings__label toggle">                   
+                    <input id="animated" class="settings__input settings__input--animated" type="checkbox">
+                    <div class="toggle__box">
+                        <div class="toggle__circle"></div>
+                    </div>
+                    <span>Animated</span>
+                </label> 
+                <label class="settings__label toggle">                   
+                    <input id="hide" class="settings__input settings__input--hide" type="checkbox">
+                    <div class="toggle__box">
+                        <div class="toggle__circle"></div>
+                    </div>
+                    <span>Hide</span>
+                </label> 
+            </form>
+        </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
