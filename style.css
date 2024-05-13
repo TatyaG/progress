@@ -57,12 +57,11 @@ body {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    max-width: 140px;
 }
 
 .settings__label {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 45px auto;
     align-items: center;
     gap: 15px
 }
